@@ -1,0 +1,124 @@
+.menu {
+  background: rgb(241,241,241);
+background: linear-gradient(0deg, rgb(169, 169, 169) 0%,rgb(195, 195, 195) 100%);;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  width: 100%;
+  position: sticky  ;
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    ul {
+      display: flex;
+      justify-content: center;
+      padding: 15px;
+      gap: 2px 100px;
+      flex-wrap: wrap;
+      margin: 0;
+      li {
+        a {
+          font-weight: 700;
+          font-size: 20px;
+          color: black;
+          list-style-type: none;
+          text-decoration: none;
+        }
+        button {
+          width: 90px;
+          background-color: #55456400;
+          color: black;
+          border: 0;
+          font-size: 15px;
+          padding: 3px;
+        }
+      }
+    }
+  }
+  .menu1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    h3 {
+      padding: 0 0 0 30px;
+      color: black;
+      font-size: 20px;
+      margin: 0;
+    }
+    div {
+      padding: 0 60px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      a {
+        list-style-type: none;
+        font-weight: 600;
+        font-size: 16px;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .activ {
+    color: black;
+  }
+
+  .a7 {
+    width: 50px;
+    height: 52px;
+    padding: 15px 9px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #363636;
+
+    span {
+      width: 100%;
+      height: 3px;
+      background: #fff;
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .menu {
+    height: 60px;
+    position: relative;
+    z-index: 100;
+    .a7 {
+      position: absolute;
+      right: 20px;
+      bottom: -20px;
+      margin: 10px 0;
+      display: flex;
+    }
+
+    nav {
+      display: none;
+
+      ul {
+        background-color: #363636;
+        display: flex;
+        right: 20px;
+        bottom: -220px;
+        bottom: -218px;
+        position: absolute;
+        flex-direction: column;
+        width: 170px;
+        height: 220px;
+        padding: 20px 30px;
+        overflow: scroll;
+        li {
+          a {
+            font-weight: 400;
+            font-size: 17px;
+          }
+        }
+      }
+    }
+    .s1 {
+      display: flex;
+    }
+  }
+}

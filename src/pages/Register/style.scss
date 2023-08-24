@@ -1,0 +1,184 @@
+.f1{
+    background-color: #252525;
+    height: 100vh;
+}
+
+.register {
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 0.4em;
+    background-color: #1f1f1f;
+    justify-content: center;
+    border-radius: 25px;
+    transition: .4s ease-in-out;
+    width: 400px;
+    height: 500px;
+    /* padding: 40px; */
+}
+
+// .register:hover {
+//     transform: scale(1.05);
+//     border: 1px solid black;
+// }
+
+
+
+.inp1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5em;
+    border-radius: 25px;
+    padding: 0.6em;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #171717;
+    box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
+    width: 340px;
+    height: 45px;
+    margin: 10px 0;
+    padding: 0 12px;
+}
+
+
+
+.button123 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+}
+
+.button123:hover {
+    background-color: black;
+    color: white;
+}
+
+.inpfile1 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #252525;
+    color: white;
+
+}
+
+.inpfile1:hover {
+    background-color: black;
+    color: white;
+}
+.inpfile1::-webkit-file-upload-button {
+    background-color: #252525;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+
+
+  
+
+.inpfile1::-moz-file-upload-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inpfile1::-ms-upload-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.inpfile1::before {
+    content: "Select File";
+    display: inline-block;
+    background-color: #252525;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.8s;
+  }
+  .inpfile1:hover::before{
+    background-color: black;
+  }
+  
+  .inpfile1::-webkit-file-upload-button {
+    display: none;
+  }
+  
+
+  .inpfile1::placeholder {
+    color: transparent;
+    display: none;
+  }
+  
+
+/* .button3 {
+  margin-bottom: 3em;
+  padding: 0.5em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  background-color: #252525;
+  color: white;
+}
+
+.button3:hover {
+  background-color: red;
+  color: white;
+} */
+.register p{
+  margin: -5px 0;
+  text-align: center;
+  color: white;
+}
+.loginLink{
+  display: flex;
+  justify-content: end;
+  position: relative;
+  a{
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+    &:hover{
+      color:  #45f3ff;
+      text-decoration:double;
+    }
+  }
+}

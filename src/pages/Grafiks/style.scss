@@ -1,0 +1,38 @@
+.Grafik{
+    background: white;
+    padding: 20px;
+    .selects{
+        form{
+            display: flex;
+            gap: 10px;
+            height: 43px;
+            align-items: baseline;
+            // background: white;
+            display: flex;
+            gap: 20px;
+            select{
+                width: 190px;
+                // height: 30px;
+                // background-color: blue;
+            }
+            
+        }
+    }
+    .d1{
+        // margin: 100px;
+        display: flex;
+        // flex-direction: column;
+        .images{
+            display: flex;
+            flex-wrap: wrap;
+            img{
+                width: 240px;
+                height: 180px;
+            }
+            
+        }
+        .border{
+            border: 10px solid black;  
+        }
+    }
+}
